@@ -83,6 +83,14 @@ public class Empresa implements Serializable {
 	public void setCnpj(String cnpj) {
 		this.cnpj = cnpj;
 	}
+	
+	public TipoEmpresa getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoEmpresa tipo) {
+		this.tipo = tipo;
+	}
 
 	public Date getDataFundacao() {
 		return dataFundacao;
